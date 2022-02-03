@@ -39,7 +39,7 @@ function App() {
   const { height, width } = useWindowDimensions();
     return (
       <div>
-        <HTMLFlipBook width={width > height / 1.58 ? height/1.58 : width} height={height}>
+        <HTMLFlipBook width={width > height/1.58 ? height/1.58 : width} height={height}>
             <PageCover number="0">Human Amelioration Vol. 2</PageCover>
             {pagesList}
             <PageCover number="47">The End</PageCover>
