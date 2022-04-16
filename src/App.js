@@ -40,7 +40,7 @@ function App() {
   const { height, width } = useWindowDimensions();
   const [magazine, setMagazine] = useState('');
     return (
-      <div>
+      <div className='centerMainElement'>
         <HTMLFlipBook width={width > height/1.58 ? height/1.58 : width} height={height}>
             <PageCover number="0">SnoopChat</PageCover>
             {pagesList.splice(0,49)}
